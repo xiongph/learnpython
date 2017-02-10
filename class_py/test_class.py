@@ -26,6 +26,10 @@ def run_tell(animal):
 a = Animal()
 b = Dog()
 c = Cat()
+print("Is object 'a' instance of the 'Dog/Cat' class? :%s"%isinstance(a, Dog))
+print("Is object 'b' instance of the 'Animal' class? :%s"%isinstance(b, Animal))
+print("Is object 'c' instance of the 'Animal' class? :%s"%isinstance(c, Animal))
+
 a.tell()
 b.tell()
 c.tell()
